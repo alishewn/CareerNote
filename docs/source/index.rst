@@ -2,6 +2,7 @@
    :maxdepth: 4
    :caption: Contents:
 
+
 =================================================
 读书笔记 《RISC-V 体系结构编程与实践》
 =================================================
@@ -478,3 +479,79 @@ SPL全称叫做：Secondary Program Loader，看名字，像是一个什么二�
 2、SPL 的代码和 u-boot 的代码是否有重合的地方？如果有，是否意味着 SPL 执行过的，跳转到 u-boot 又要在执行一次？
 
 3、具体情况下，需要配置哪些硬件？怎么配置？
+
+=============================================
+链接脚本
+=============================================
+
+01 基本概念
+================
+
+.. include:: markdown\01 基本概念\README.md
+   :parser: myst_parser.sphinx_
+
+02 格式
+================
+
+.. include:: markdown\02 格式\README.md
+   :parser: myst_parser.sphinx_
+
+03 简要示例
+================
+
+.. include:: markdown\03 简要示例\README.md
+   :parser: myst_parser.sphinx_
+
+04 简要链接指令
+================
+
+.. include:: markdown\04 简要链接指令\README.md
+   :parser: myst_parser.sphinx_
+
+05 符号值分配
+================
+
+.. include:: markdown\05 符号值分配\README.md
+   :parser: myst_parser.sphinx_
+
+06 SECTIONS指令
+================
+
+.. include:: markdown\06 SECTIONS指令\README.md
+   :parser: myst_parser.sphinx_
+
+07 MEMORY指令
+================
+
+.. include:: markdown\07 MEMORY指令\README.md
+   :parser: myst_parser.sphinx_
+
+08 PHDRS指令
+================
+
+.. include:: markdown\08 PHDRS指令\README.md
+   :parser: myst_parser.sphinx_
+
+09 VERSION指令
+=====================
+
+.. include:: markdown\09 VERSION指令\README.md
+   :parser: myst_parser.sphinx_
+
+10 Linker Scripts中的表达式
+============================
+
+.. include:: markdown\10 Linker Scripts中的表达式\README.md
+   :parser: myst_parser.sphinx_
+
+11 构建可运行程序
+====================
+
+.. include:: markdown\11 构建可运行程序\README.md
+   :parser: myst_parser.sphinx_
+
+12 抛弃glibc依赖
+======================
+
+.. include:: markdown\12 抛弃glibc依赖\README.md
+   :parser: myst_parser.sphinx_
